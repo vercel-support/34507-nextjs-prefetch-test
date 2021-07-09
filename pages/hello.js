@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          HELLO to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
@@ -23,15 +23,13 @@ export default function Home() {
         </p>
 
         <div>
-          <Link href="/hello">
-            <a>Hello</a>
+          <Link href="/">
+            <a>Home</a>
           </Link>
           <br/>
-          <Link href="/hello" prefetch={false}>
-            <a>Hello (prefetch false)</a>
+          <Link href="/" prefetch={false}>
+            <a>Home (prefetch false)</a>
           </Link>
-
-          
         </div>
       </main>
 
